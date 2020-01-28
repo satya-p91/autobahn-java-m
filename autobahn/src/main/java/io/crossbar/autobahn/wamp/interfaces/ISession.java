@@ -330,10 +330,10 @@ public interface ISession {
      * @return a CompletableFuture that resolves to an instance of
      * {@link io.crossbar.autobahn.wamp.types.Subscription}
      */
-    CompletableFuture<Subscription> subscribe(
+    /*CompletableFuture<Subscription> subscribe(
             String topic,
             TriFunction<List<Object>, Map<String, Object>, EventDetails,
-                    CompletableFuture<ReceptionResult>> handler);
+                    CompletableFuture<ReceptionResult>> handler);*/
 
     /**
      * Subscribes to a WAMP topic.

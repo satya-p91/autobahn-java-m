@@ -842,13 +842,13 @@ public class Session implements ISession, ITransportHandler {
         return reallySubscribe(topic, handler, options, null, null);
     }
 
-    @Override
+    /*@Override
     public CompletableFuture<Subscription> subscribe(
             String topic,
             TriFunction<List<Object>, Map<String, Object>, EventDetails,
                     CompletableFuture<ReceptionResult>> handler) {
         return reallySubscribe(topic, handler, null, null, null);
-    }
+    }*/
 
     @Override
     public CompletableFuture<Subscription> subscribe(
